@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # local apps
     'myapp.apps.MyappConfig',
+    'm2m_model.apps.M2MModelConfig',
 ]
 
 MIDDLEWARE = [
