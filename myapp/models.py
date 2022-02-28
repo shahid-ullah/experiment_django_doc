@@ -17,3 +17,11 @@ class CommonInfo(models.Model):
 class Student(CommonInfo):
     name = None
     home_group = models.CharField(max_length=5)
+
+
+def empty_dictionary():
+    return {}
+
+
+class LoginTotalUsers(models.Model):
+    employee_ids = models.JSONField(default=empty_dictionary)
