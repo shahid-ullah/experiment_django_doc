@@ -7,17 +7,10 @@ from reportlab.lib.pagesizes import letter
 from reportlab.lib.units import inch
 from reportlab.pdfgen import canvas
 
-from .models import LoginTotalUsers
-
 # from .forms import DateForm
 
 
 def home(request):
-    for i in range(1000):
-        dic = {}
-        for i in range(1000):
-            dic.setdefault(i, i)
-        LoginTotalUsers.objects.create(employee_ids=dic)
     return render(request, 'home.html')
 
 

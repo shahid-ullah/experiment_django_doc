@@ -12,10 +12,20 @@ click==8.0.3
     # via pip-tools
 django==4.0
     # via -r requirements.in
+faker==13.2.0
+    # via -r requirements.in
 pep517==0.12.0
     # via pip-tools
+pillow==9.0.1
+    # via reportlab
 pip-tools==6.4.0
     # via -r requirements.in
+python-dateutil==2.8.2
+    # via faker
+reportlab==3.6.7
+    # via -r requirements.in
+six==1.16.0
+    # via python-dateutil
 sqlparse==0.4.2
     # via django
 tomli==1.2.2
