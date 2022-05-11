@@ -2,3 +2,4 @@ pip-tools
 Django
 Faker
 reportlab
+django-extensions

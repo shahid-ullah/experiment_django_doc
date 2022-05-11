@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     # local apps
     'myapp.apps.MyappConfig',
     'm2m_model.apps.M2MModelConfig',
+    # third party
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
